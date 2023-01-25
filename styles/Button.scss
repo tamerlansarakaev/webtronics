@@ -1,0 +1,20 @@
+.standart-button {
+  font-family: Inter;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  background: var(--blue-light-gradient);
+  padding: 24px 32px;
+  transition: 0.5s;
+  border-radius: 8px;
+  color: var(--blue-small-night-color);
+}
+
+.standart-button:hover {
+  color: var(--blue-medium-night-color);
+}
+
+.standart-button:active {
+  color: var(--white-color);
+}

@@ -1,0 +1,38 @@
+.hero {
+  margin-bottom: 190px;
+
+  .top-text {
+    display: flex;
+    gap: 0 57px;
+    align-items: center;
+    color: var(--white-color);
+    font-family: 'Clash Display';
+
+    .title-hero-block {
+      font-weight: 600;
+      font-size: 150px;
+      color: var(--white-color);
+    }
+
+    .subtitle-text {
+      max-width: 359px;
+      font-family: Inter;
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+
+  .bottom-text {
+    display: flex;
+    align-items: center;
+    gap: 0 24px;
+
+    .button {
+      margin-right: 24px;
+    }
+  }
+  .bottom-hero-title {
+    text-align: right;
+    margin-right: 10px;
+  }
+}

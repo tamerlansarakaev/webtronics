@@ -1,0 +1,27 @@
+// Colors
+body {
+  --white-color: #fff;
+  --blue-night-color: #0c102d;
+  --blue-small-night-color: #0a1482;
+  --blue-medium-night-color: rgba(59, 72, 208, 1);
+  --gray-color: rgba(255, 255, 255, 0.05);
+  --red-light: #fd4646;
+  --gray-light: #636363;
+  --light-blue: #a2cbfb;
+}
+
+// Gradients
+
+body {
+  --blue-light-gradient: linear-gradient(
+    180deg,
+    #1ff2ff 0%,
+    #27f9e5 52.66%,
+    #2fffcd 100%
+  );
+  --purple-blue-gradient: linear-gradient(
+    152.14deg,
+    rgba(21, 191, 253, 0.7) 9.96%,
+    rgba(156, 55, 253, 0.7) 100%
+  );
+}

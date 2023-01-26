@@ -6,6 +6,8 @@ import { store } from '../app/store/store';
 import '@/styles/globals.css';
 import '@/styles/Button.scss';
 import '@/styles/vars.scss';
+import '@/styles/AboutUs.scss';
+import '@/styles/TechnologiesBlock.scss';
 import '../styles/Header.scss';
 import '../styles/Main.scss';
 

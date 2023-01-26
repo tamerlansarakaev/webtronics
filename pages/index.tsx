@@ -6,12 +6,14 @@ import Image from 'next/image';
 function App() {
   return (
     <div className="App">
-      <Image
-        src={backgroundImage}
-        alt="backgroundImage"
-        className="backgroundImage"
-        height={815}
-      />
+      <div className="background">
+        <Image
+          src={backgroundImage}
+          alt="backgroundImage"
+          className="backgroundImage"
+          height={815}
+        />
+      </div>
       <div className="container">
         <Header />
         <Main />

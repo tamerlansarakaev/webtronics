@@ -1,0 +1,21 @@
+.technologies-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .technologies-title {
+    max-width: 543px;
+  }
+
+  .technologies-subtitle {
+    max-width: 432px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--white-color);
+  }
+}

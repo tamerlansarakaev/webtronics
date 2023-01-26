@@ -1,0 +1,105 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 180px;
+
+  .title {
+    margin-bottom: 56px;
+  }
+
+  .mentors-title {
+    text-align: center;
+  }
+
+  .information-list {
+    display: flex;
+
+    .other-information {
+      max-width: 486px;
+      margin-top: 109px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      color: var(--white-color);
+    }
+  }
+
+  .mentors {
+    max-width: 652px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    .mentor-image {
+      position: relative;
+      z-index: 2;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .mentor {
+      position: relative;
+    }
+
+    .mentor:first-child {
+      img {
+        object-position: -5px;
+      }
+    }
+
+    .mentor:nth-child(2) {
+      margin-top: -62px;
+      img {
+        object-position: 0px -13px;
+      }
+    }
+
+    .mentor:nth-child(3) {
+      img {
+        object-position: 0px 0px;
+      }
+    }
+
+    .mentor::before {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 188px;
+      height: 188px;
+      left: -2px;
+      top: -2px;
+      position: absolute;
+      background: var(--purple-blue-gradient);
+      content: '';
+      border-radius: 50%;
+    }
+
+    .mentors-list {
+      display: flex;
+      gap: 0 13px;
+      margin-top: -6px;
+    }
+
+    .mentor-title {
+      margin-top: 16px;
+      font-family: Clash Display;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 120%;
+      color: var(--white-color);
+    }
+
+    .mentor-description {
+      max-width: 185px;
+      font-family: Inter;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 140%;
+      color: var(--white-color);
+    }
+  }
+}

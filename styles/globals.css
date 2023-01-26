@@ -39,14 +39,7 @@ body {
 
 .App {
   background: var(--blue-night-color);
-}
-
-.backgroundImage {
-  max-width: 100%;
-  width: 100%;
-  object-fit: cover;
-  opacity: 20%;
-  position: absolute;
+  position: relative;
 }
 
 .container {
@@ -57,5 +50,31 @@ body {
   flex-direction: column;
   margin: 0 auto;
   padding-top: 38px;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 815px;
+}
+
+.backgroundImage {
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  outline: none;
+  opacity: 20%;
+}
+
+.background::after {
+  max-height: 382px;
+  width: 100%;
+  left: 0;
+  bottom: -15px;
+  background: var(--blue-night-gradient);
+  filter: blur(5px);
+  height: 100%;
+  position: absolute;
+  content: '';
 }
 

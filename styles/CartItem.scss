@@ -1,0 +1,23 @@
+.cart-elements {
+  position: relative;
+  z-index: 3;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 10px;
+
+  .cart-bg {
+    position: absolute;
+  }
+
+  &-title {
+    margin-top: 16px;
+    font-family: Clash Display;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--white-color);
+  }
+}

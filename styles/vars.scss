@@ -30,4 +30,11 @@ body {
     rgba(12, 16, 45, 0) -4.71%,
     #0c102d 97.38%
   );
+
+  --blue-light-purple-gradient: linear-gradient(
+    90deg,
+    rgba(21, 191, 253, 0) 8.03%,
+    rgba(21, 191, 253, 0.7) 69.15%,
+    rgba(156, 55, 253, 0.7) 97.95%
+  );
 }

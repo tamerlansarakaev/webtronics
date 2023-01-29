@@ -1,0 +1,76 @@
+.step-item {
+  display: flex;
+  min-height: 228px;
+  max-width: 491px;
+  align-items: center;
+  position: relative;
+  flex-basis: 50%;
+
+  .left {
+    display: block !important;
+    left: 11px;
+  }
+
+  .right {
+    display: block !important;
+    rotate: 180deg;
+    right: 18px;
+    top: 16px;
+  }
+
+  .step-stroke {
+    display: none;
+    position: absolute;
+  }
+
+  .step-elements {
+    position: relative;
+    display: flex;
+    max-width: 500px;
+    max-height: 191px;
+    height: 100%;
+    flex-direction: column;
+    padding: 24px;
+    gap: 16px 0;
+    color: var(--white-color);
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+
+    .header-title {
+      font-family: Clash Display;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 120%;
+    }
+
+    .title {
+      font-family: Clash Display;
+      font-weight: 600;
+      font-size: 32px;
+    }
+
+    .description {
+      max-width: 408px;
+      font-family: Inter;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      color: var(--light-blue);
+    }
+  }
+
+  .guide-line-left {
+    position: absolute;
+    right: -134px;
+    z-index: 3;
+    transform-origin: 87% 50%;
+  }
+
+  .guide-right-line {
+    position: absolute;
+    left: -201px;
+    z-index: 3;
+    transform: rotate(180deg);
+    transform-origin: 87% 50%;
+  }
+}

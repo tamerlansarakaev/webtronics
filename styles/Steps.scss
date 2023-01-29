@@ -1,0 +1,43 @@
+.steps-block {
+  margin-bottom: 180px;
+
+  .steps-list {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+
+    .steps-line {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      gap: 100px;
+      height: 877px;
+      margin-top: 131px;
+      content: '';
+      width: 4px;
+      background: var(--blue-light-gradient);
+    }
+  }
+
+  .steps-second-column,
+  .steps-first-column {
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    gap: 144px;
+    width: 100%;
+  }
+
+  .steps-second-column {
+    margin-top: 142px;
+
+    .step-item {
+      justify-content: end;
+    }
+  }
+
+  .steps-column:nth-child(2) {
+    margin-top: 124px;
+  }
+}

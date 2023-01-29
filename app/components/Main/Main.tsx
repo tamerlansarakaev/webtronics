@@ -4,6 +4,7 @@ import React from 'react';
 import AboutUs from '../AboutUs/AboutUs';
 import Hero from '../Hero/Hero';
 import TechnologiesBlock from '../TechnologiesBlock/TechnologiesBlock';
+import Steps from '../Steps/Steps';
 
 export default function Main() {
   return (
@@ -11,6 +12,7 @@ export default function Main() {
       <Hero />
       <AboutUs />
       <TechnologiesBlock />
+      <Steps />
     </main>
   );
 }

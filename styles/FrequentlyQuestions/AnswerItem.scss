@@ -1,0 +1,89 @@
+.answer-item {
+  display: flex;
+  max-width: 703px;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  padding: 13px 24px 13px 20px;
+  color: var(--white-color);
+  border-radius: 12px;
+  background: var(--transparent-black-color);
+  -webkit-clip-path: polygon(
+    0% 100%,
+    0 57%,
+    0 30%,
+    4% 0,
+    92% 0,
+    100% 0%,
+    100% 56%,
+    100% 72%,
+    95% 100%,
+    92% 100%
+  );
+  clip-path: polygon(
+    0% 100%,
+    0 57%,
+    0 30%,
+    4% 0,
+    92% 0,
+    100% 0%,
+    100% 56%,
+    100% 72%,
+    95% 100%,
+    92% 100%
+  );
+  cursor: pointer;
+
+  &-header {
+    display: flex;
+    user-select: none;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-title {
+    font-family: Clash Display;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+  }
+
+  .answer-to-question {
+    margin-top: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+}
+
+.active-wrapper-answer {
+  min-height: 166px;
+  -webkit-clip-path: polygon(
+    0% 100%,
+    0 57%,
+    0 11%,
+    4% 0,
+    92% 0,
+    100% 0%,
+    100% 56%,
+    100% 87%,
+    96% 100%,
+    92% 100%
+  ) !important;
+  clip-path: polygon(
+    0% 100%,
+    0 57%,
+    0 11%,
+    4% 0,
+    92% 0,
+    100% 0%,
+    100% 56%,
+    100% 87%,
+    96% 100%,
+    92% 100%
+  ) !important ;
+}
+
+// Border gradients

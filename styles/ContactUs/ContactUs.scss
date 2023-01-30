@@ -1,0 +1,40 @@
+.contact-us {
+  display: flex;
+  width: 100%;
+  padding: 56px 297px;
+  justify-content: center;
+  align-items: center;
+  background: var(--transparent-black-color);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 120%;
+    text-align: center;
+  }
+
+  .subtitle {
+    max-width: 630px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--white-color);
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}

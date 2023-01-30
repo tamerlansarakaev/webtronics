@@ -130,7 +130,6 @@ export default function Review() {
           <div className="review-images">
             {images &&
               images.map((_, i) => {
-                console.log(selectImages);
                 return (
                   <div
                     className={`review-image-container ${

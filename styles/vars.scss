@@ -8,6 +8,7 @@ body {
   --red-light: #fd4646;
   --gray-light: #636363;
   --light-blue: #a2cbfb;
+  --transparent-black-color: rgba(255, 255, 255, 0.05);
 }
 
 // Gradients
@@ -36,5 +37,11 @@ body {
     rgba(21, 191, 253, 0) 8.03%,
     rgba(21, 191, 253, 0.7) 69.15%,
     rgba(156, 55, 253, 0.7) 97.95%
+  );
+
+  --purple-blue-gradient: linear-gradient(
+    152.14deg,
+    rgba(21, 191, 253, 0.7) 9.96%,
+    rgba(156, 55, 253, 0.7) 100%
   );
 }

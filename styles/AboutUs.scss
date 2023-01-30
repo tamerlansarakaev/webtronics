@@ -17,11 +17,7 @@
     .other-information {
       max-width: 486px;
       margin-top: 109px;
-      font-family: Inter;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 140%;
+      font: 400 16px/140% "Inter";
       color: var(--white-color);
     }
   }
@@ -45,22 +41,20 @@
       position: relative;
     }
 
-    .mentor:first-child {
-      img {
-        object-position: -5px;
-      }
+    .mentor:first-child img,
+    .mentor:nth-child(2) img,
+    .mentor:nth-child(3) img {
+      object-position: center;
+    }
+
+    .mentor:first-child img {
+      object-position: -5px center;
     }
 
     .mentor:nth-child(2) {
       margin-top: -62px;
       img {
-        object-position: 0px -13px;
-      }
-    }
-
-    .mentor:nth-child(3) {
-      img {
-        object-position: 0px 0px;
+        object-position: center -13px;
       }
     }
 
@@ -86,19 +80,13 @@
 
     .mentor-title {
       margin-top: 16px;
-      font-family: Clash Display;
-      font-weight: 500;
-      font-size: 24px;
-      line-height: 120%;
+      font: 500 24px/120% "Clash Display";
       color: var(--white-color);
     }
 
     .mentor-description {
       max-width: 185px;
-      font-family: Inter;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 140%;
+      font: 400 14px/140% "Inter";
       color: var(--white-color);
     }
   }
